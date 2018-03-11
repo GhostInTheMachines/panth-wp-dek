@@ -6,5 +6,6 @@
 Just testing CI/CD with CircleCI, GitHub and Pantheon
 
 ----- CHANGE-LOG ---------------
-added WooCommerce plugin
+added WooCommerce plugin,
+adding js for jump to links on home page
 
