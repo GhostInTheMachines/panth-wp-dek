@@ -1,0 +1,7 @@
+name: panth-wp-dek
+recipe: pantheon
+config:
+  webroot: web
+  framework: wordpress
+  site: panth-wp-dek
+  id: 60fdf4fd-dc03-443b-8913-d63052b1f494
