@@ -12,10 +12,15 @@
     {
       "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.org"
     }
   ],
   "require": {
     "composer/installers": "^1.3.0",
+    "ghost-in-the-machines/custom-css-and-js": "dev-master",
     "pantheon-systems/quicksilver-pushback": "^1.0",
     "pantheon-systems/wordpress-composer": "^4.8.2",
     "roots/wp-password-bcrypt": "^1.0.0",
@@ -55,7 +60,7 @@
       ]
     },
     "installer-paths": {
-      "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin", "type:composer"],
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"],
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
     }
