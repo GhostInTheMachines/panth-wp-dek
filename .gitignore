@@ -106,6 +106,10 @@ Thumbs.db
 ######################
 *.un~
 
+# PHPStorm generated files #
+############################
+.idea/
+
 # SASS #
 ##########
 .sass-cache
